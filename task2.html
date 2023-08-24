@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        class Movie{
+            constructor(title,studio,rating){
+                this.title=title,
+                this.studio=studi,
+                // this.rating=rating
+                //this.rating="PG"
+                if(rating==null){
+                    this.rating="PG"
+                }else{
+                    this.rating=rating
+                }
+
+            }
+            getPG(arr){
+                console.log("getPG method is called",arr)
+                //only pg as a rating that should be there 
+                let PGResult=[]
+                for(var i=0;i<arr.lenght;1++){
+                    //console.log(arr[i].rating)
+                    //console.log(arr[1])
+                    PGResult.push(arr[i])
+                }
+                
+            }
+            console.log (PGresult)
+        }
+        let movie1=new movie("Casino Royale","Eon Productions","PG13")
+        let movie2=new movie("ABC","A Productions","PG")
+        let movie3=new movie("GMC","D Productions","PG15")
+        let movie4=new movie("BMD","F Eon Productions")
+        let movie5=new movie ("MGH","T Production","PG17")
+        let movie6=new movie ("GFD","H Production","PG")
+
+        var array=[movie1,movie2,movie3,movie4,movie5]
+        console.log(array)
+
+
+        console.log(movie1)
+        //[movie1,movie2]
+    </script>
+</body>
+</html>
